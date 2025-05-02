@@ -1,3 +1,5 @@
+//Jennifer Morin
+//COS225 5/1/2024
 public class TreeNode<T>{
 
     private T element;
@@ -55,8 +57,8 @@ public class TreeNode<T>{
             return;
         }
         System.out.print(node.getElement()+" ");
-        preorder(node.getLeft());
-        preorder(node.getRight());
+        postorder(node.getLeft());
+        postorder(node.getRight());
     }
 
     //O(n)

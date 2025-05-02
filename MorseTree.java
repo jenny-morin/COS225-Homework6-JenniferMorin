@@ -1,11 +1,5 @@
-/*MorseTree: 
- Contains an TreeNode representing the root of the Tree containing letters 
- Contains a default constructor to make a null Tree 
- Implement a method that will return a String containing the Pre-order of the Tree 
- Implement a method that will return a String containing the Post-order of the Tree 
- Implement a method that will translate an English string into its Morse code equivalent 
-(ignoring case) 
- Implement a method  */
+//Jennifer Morin
+//COS225 5/1/2024
 public class MorseTree {
     TreeNode<String> myRoot = new TreeNode<String>("_");
 
